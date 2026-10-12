@@ -1,0 +1,37 @@
+{
+  "name": "MeloCafe",
+  "subtitle": "Wii U emulator for iOS and iPadOS",
+  "description": "MeloCafe is a Cemu-based Wii U emulator for iOS and iPadOS.",
+  "iconURL": "https://raw.githubusercontent.com/stossy11/MeloCafe/main/MeloCafe/MeloCafe/Assets/Assets.xcassets/AppIcon.imageset/AppIcon.png",
+  "website": "https://melo.cafe",
+  "apps": [
+    {
+      "name": "MeloCafe",
+      "bundleIdentifier": "com.stossy11.MeloCafe",
+      "developerName": "stossy11",
+      "subtitle": "Wii U emulator",
+      "localizedDescription": "Play Wii U games and homebrew on iOS and iPadOS with MeloCafe, a Cemu-based emulator. JIT is recommended for performance.",
+      "iconURL": "https://raw.githubusercontent.com/stossy11/MeloCafe/main/MeloCafe/MeloCafe/Assets/Assets.xcassets/AppIcon.imageset/AppIcon.png",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-09-14",
+          "localizedDescription": "**Full Changelog**: https://github.com/stossy11/MeloCafe/commits/1.0\n\n# Changelog\n\n- Initial Release\n- Full iOS Support\n- Metal Argument Buffers\n- Cached Threaded Interpreter.\n\nThis is the first release of MeloCafe, there **WILL** be bugs, glitches, performance issues and unintended behavior which will get fixed in the future",
+          "downloadURL": "https://github.com/stossy11/MeloCafe/releases/download/1.0/MeloCafe.ipa",
+          "size": 23433272,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.increased-memory-limit"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "MeloCafe uses the microphone when Wii U software requests GamePad microphone input."
+        }
+      }
+    }
+  ]
+}
